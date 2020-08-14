@@ -1,0 +1,198 @@
+/* =========================================header=============================================================== */
+
+.header {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    /* выровнять остальные маргины по вертикали */
+}
+
+h1 {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+}
+.card-font {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-h2 {
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.line-orange {
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    border: 0px;
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 32px;
+    width: 350px;
+}
+
+.card:last-child {
+    margin-right: 0
+}
+
+.cards-container {
+    font-size: 0px;
+    max-width: 1222px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon {
+    height: 68px;
+    width: 68px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-lamp {
+    background-image: url(../img/lamp.png);
+}
+
+.icon-keyboard {
+    background-image: url(../img/keyboard.png);
+}
+
+.icon-lightning {
+    background-image: url(../img/lightning.png);
+}
+
+/* =====================================================main====================================================== */
+
+.line-white {
+    width: 64px;
+    height: 2px;
+    background-color: white;
+    border: 0px; 
+}
+
+.main-background {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../img/background-city-img.jpg);
+    padding-top: 75px;
+    padding-bottom: 62px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-h2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.main-p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button {
+    background: none;
+    color: white;
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 32px;
+    border-color: white;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #000d0d;
+}
+
+/* =====================================================footer========================================================= */
+
+.footer-style {
+    background-color: black;
+    font-size: 11px;
+    padding: 40px 0;
+}
+
+.social-icon {
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/sprites.png);
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.social-icons {
+    margin: 0 auto;
+    width: 195px;
+}
+/* 23x23px */
+.social-icons a {
+    width:  23px;
+    height: 23px;
+    background-size: 318px 25px;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.facebook {
+    background-position: -18px 23px;
+}
+
+.twitter {
+    background-position: -58px -1px;
+}
+
+.google {
+    background-position: -101px 0;
+}
+
+.pinterest {
+    background-position: -141px -2px;
+}
+
+.inst {
+    background-position: -183px -2px;
+}
+
+.bullshit {
+    background-position: -229px -1px;
+}
+
+.rss-service {
+    background-position: -273px 0;
+}
