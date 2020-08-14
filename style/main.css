@@ -3,7 +3,6 @@
 .header {
     padding-top: 104px;
     padding-bottom: 104px;
-    /* выровнять остальные маргины по вертикали */
 }
 
 h1 {
@@ -105,6 +104,7 @@ p {
 .main-h2 {
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
 }
 
 .main-p {
