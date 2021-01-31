@@ -1,2 +1,2 @@
-# lesson-3
+# Axure Design
 https://aleksey-bortnik.github.io/lesson-3/
