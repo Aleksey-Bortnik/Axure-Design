@@ -1,2 +1,2 @@
 # Axure Design
-https://aleksey-bortnik.github.io/lesson-3/
+https://aleksey-bortnik.github.io/Axure-Design/
